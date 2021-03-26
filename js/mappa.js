@@ -20,8 +20,13 @@ const mappa = () => {
             "coord": [ 18.244639, 31.642111 ],
             "url": ""
         },
+        // {
+        //     "name": "Diffinarti",
+        //     "coord": [  ],
+        //     "url": ""
+        // },
         {
-            "name": "Diffinarti",
+            "name": "Qasr Nimeri",
             "coord": [ 19.021721, 30.464450 ],
             "url": ""
         },
