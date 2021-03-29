@@ -434,7 +434,7 @@ a:focus {
   -webkit-backface-visibility: visible !important;
           backface-visibility: visible !important;
 }
-.slider-one__text span {
+.slider-one__text>span {
   color: #b81027;
   font-size: 32px;
   float: left;
