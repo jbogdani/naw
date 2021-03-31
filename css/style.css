@@ -155,7 +155,7 @@ a:focus {
   bottom: 0;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/preloader-logo.png);
+  background-image: url(../images/loghi/preloader-logo.png);
 }
 .scroll-to-top {
   display: inline-block;
@@ -400,10 +400,12 @@ a:focus {
 .slider-one {
   position: relative;
   height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),url(../images/intro/slider-1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 800px;
 }
 .slider-one__title {
   margin: 0;
@@ -419,6 +421,9 @@ a:focus {
   -webkit-backface-visibility: visible !important;
           backface-visibility: visible !important;
 }
+.slider-one__title span {
+  color: #b81027;
+ }
 .slider-one__text {
   margin: 0;
   color: #fff;
@@ -1122,7 +1127,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/tamit.jpg);
+  background-image: url(../images/page-inner-banner.jpg);
 }
 .inner-banner__title {
   margin: 0;
