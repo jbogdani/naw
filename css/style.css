@@ -569,7 +569,8 @@ a:focus {
   color: #b81027;
 }
 .photo-block {
-  margin-bottom: 30px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   position: relative;
   padding-right: 20px;
 }
@@ -1693,4 +1694,8 @@ a:focus {
   .slider-one__title {
     font-size: 19px;
   }
+}
+blockquote{
+  padding: 0 2rem;
+  font-size: 17px;
 }
