@@ -4,9 +4,9 @@ const mappa = () => {
       "name": "Tamit",
       "coord": [ 22.331090, 31.638430 ],
       "submerged": true,
-      "from": 1964,
+      "from": "(1963)",
       "to": 1964,
-      "url": "single"
+      "url": "tamit"
     },
     {
       "name": "Sonqi Tino",
@@ -45,8 +45,7 @@ const mappa = () => {
       "name": "Qasr Nimeri",
       "coord": [ 19.021721, 30.464450 ],
       "submerged": false,
-      "from": 1964,
-      "to": 1970,
+      "from": 1970,
       "post-it": "Lavori sul campo a varie riprese a partire dal 2007 da parte dell'Università di Khartum",
       "post-en": "Fieldwork since 2007 by the Khartoum University",
       "url": ""
@@ -55,8 +54,7 @@ const mappa = () => {
       "name": "El-Khandag",
       "coord" : [ 18.607773, 30.567303 ],
       "submerged": false,
-      "from": 1964,
-      "to": 1970,
+      "from": 1970,
       "post-it": "Lavori sul campo a varie riprese a partire dal 2007 da parte dell'Università di Khartum",
       "post-en": "Fieldwork since 2007 by the Khartoum University",
       "url": ""
@@ -65,8 +63,7 @@ const mappa = () => {
       "name": "Abkur",
       "coord": [ 18.042528, 31.076083 ],
       "submerged": false,
-      "from": 1964,
-      "to": 1970,
+      "from": 1970,
       "post-it": "Lavori sul campo e ricognizioni da parte di Bogdan Zurawski, a partire dal 2000",
       "post-en": "Fieldwork and survey by Bogdan Zurawski, since 2000",
       "url": ""
@@ -75,8 +72,7 @@ const mappa = () => {
       "name": "Merowe",
       "coord": [ 18.480473, 31.800610 ],
       "submerged": false,
-      "from": 1964,
-      "to": 1970,
+      "from": 1970,
       "url": ""
     },
     // {
@@ -88,8 +84,7 @@ const mappa = () => {
       "name": "Kerma",
       "coord": [ 19.600767, 30.410444 ],
       "submerged": false,
-      "from": 1964,
-      "to": 1970,
+      "from": 1970,
       "post-it": "Mission archéologique suisse à Kera (Soudan): dal 1977",
       "post-en": "Mission archéologique suisse à Kera (Soudan): since 1977",
       "url": ""
@@ -122,7 +117,7 @@ const mappa = () => {
   pois.forEach(p => {
     let isCurrent;
     let submergedText = p.submerged ? (lang === 'it' ? '<p>Il sito è oggi sommerso</p>' : '<p>The site is today submerged</p>') : '';
-    const fromToText = lang === 'it' ? `<p><strong>Attività Sapenza</strong><br> ${p.from} – ${p.to}</p>` : `<p><strong>Sapienza activities</strong><br> ${p.from} — ${p.tp}</p>`;
+    const fromToText = lang === 'it' ? `<p><strong>Attività Sapenza</strong><br> ${p.from} ${p.to ? `– ${p.to}` : ''}</p>` : `<p><strong>Sapienza activities</strong><br> ${p.from} — ${p.tp}</p>`;
     
     if (window.location.href.indexOf(`/${p.url}.html`) > -1){
       isCurrent = true;
