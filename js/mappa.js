@@ -16,7 +16,7 @@ const mappa = () => {
       "from": 1967,
       "to": 1970,
       "submerged": true,
-      "url": ""
+      "url": "sonqi-tino"
     },
     {
       "name": "Jebel Barkal",
