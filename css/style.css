@@ -615,13 +615,15 @@ a:focus {
 .photo-block-title {
   margin: 0;
   color: #fff;
-  font-size: 20px;
+  font-size: 1rem;
   position: absolute;
-  bottom: 30px;
-  left: 20px;
+  bottom: 1rem;
+  left: 1.5rem;
   z-index: 10;
   text-shadow: 2px 2px 2px #454545;
   width: 90%;
+  background: rgba(0,0,0,.1);
+  padding: 1rem;
 }
 @media screen and (max-width: 480px) {
   .photo-block-title {
