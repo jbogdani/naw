@@ -68,6 +68,13 @@ a:focus {
   position:absolute;
   left: 50%;
 }
+.divider-gallery {
+  border-left: 4px solid #b81027;
+  height: 60px;
+  position: relative;
+  left: 50%;
+  margin-bottom: 30px;
+}
 .thm-btn {
   border: none;
   outline: none;
@@ -635,7 +642,7 @@ a:focus {
   margin: 0;
   color: #302e2f;
   font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .panel__paginations {

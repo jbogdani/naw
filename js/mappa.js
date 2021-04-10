@@ -90,13 +90,13 @@ const mappa = () => {
       "url": ""
     }
   ];
-  
-  
+
+
   if (typeof L === 'undefined'){
     console.log('Load Leflet to build map: https://unpkg.com/leaflet@1.7.1/dist/leaflet.js');
     return;
   }
-  
+
   if (typeof document.getElementById('map') === 'undefined'){
     console.log('Add element <div id="map"></div> in the document to build the map');
     return;
@@ -106,9 +106,9 @@ const mappa = () => {
     lang = 'it';
     console.log('Language set to `it` by default. Please explicitly set language by adding `it` or `en` as content of div#map');
   }
-  
+
   var map = L.map('map').setView([20.024509, 31.471851], 6);
-  
+
   L.tileLayer( 'http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
     opacity: 0.4
@@ -117,12 +117,12 @@ const mappa = () => {
   pois.forEach(p => {
     let isCurrent;
     let submergedText = p.submerged ? (lang === 'it' ? '<p>Il sito è oggi sommerso</p>' : '<p>The site is today submerged</p>') : '';
-    const fromToText = lang === 'it' ? `<p><strong>Attività Sapenza</strong><br> ${p.from} ${p.to ? `– ${p.to}` : ''}</p>` : `<p><strong>Sapienza activities</strong><br> ${p.from} — ${p.tp}</p>`;
-    
+    const fromToText = lang === 'it' ? `<p><strong>Attività Sapienza</strong><br> ${p.from} ${p.to ? `– ${p.to}` : ''}</p>` : `<p><strong>Sapienza activities</strong><br> ${p.from} — ${p.tp}</p>`;
+
     if (window.location.href.indexOf(`/${p.url}.html`) > -1){
       isCurrent = true;
     }
-    
+
     const marker = L.circleMarker(p.coord, {
       color: isCurrent ? '#b81027' : '#302e2f',
       fillColor: isCurrent ? '#b81027' : '#302e2f',
