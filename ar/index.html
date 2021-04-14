@@ -104,9 +104,10 @@
                   <li>
                     <div class="topbar-two__language">
                       <i class="egypt-icon-global"></i><!-- /.egypt-icon-global -->
-                      <select class="selectpicker">
-                        <option selected> IT</option>
-                        <option>EN</option>
+                      <select onchange="location = this.value;" class="selectpicker">
+                        <option value="../index.html">IT</option>
+                        <option value="../en/index.html">EN</option>
+                        <option selected value="index.html">AR</option>
                       </select>
                     </div><!-- /.topbar-two__language -->
                   </li>
@@ -186,8 +187,8 @@
                     </p>
 
                     <div class="photo-block wow fadeInUp">
-                      <img 
-                          src="../images/intro/Fig_1-2-3_UNESCO_1966.jpg" 
+                      <img
+                          src="../images/intro/Fig_1-2-3_UNESCO_1966.jpg"
                           alt="Dismantling of the colossal statues of the Great Temple at Abu Simbel" />
                       <div class="photo-block-content">
                         <p class="photo-block-title">

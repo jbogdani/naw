@@ -139,7 +139,7 @@ a:focus {
   transition: all .4s ease;
 }
 .bootstrap-select .dropdown-menu > li > a:hover {
-  background: #d99578;
+  background: #e6c04a;
   color: #fff;
   cursor: pointer;
 }
