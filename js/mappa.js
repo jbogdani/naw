@@ -24,7 +24,7 @@ const mappa = () => {
       "to": 2004,
       "post-it": "Scavi: 2005-2010 Università di Torino; 2011 - oggi: Ca'Foscari Università di Venezia (https://sites.google.com/view/egittologiavenezia/scavo)",
       "post-es": "Excavations: 2005-2010 University of Turin; 2011 - currently: Ca'Foscari University of Venice (https://sites.google.com/view/egittologiavenezia/scavo)",
-      "url": ""
+      "url": "jebel-barkal"
     },
     {
       "name": "Hugair Gubli",
@@ -32,7 +32,7 @@ const mappa = () => {
       "submerged": false,
       "from": 2021,
       "to": "in corso",
-      "url": ""
+      "url": "hugair-gubli"
     },
     // {
     //     "name": "Diffinarti",
@@ -44,18 +44,18 @@ const mappa = () => {
       "coord": [ 19.021721, 30.464450 ],
       "submerged": false,
       "from": 1970,
-      "post-it": "Lavori sul campo a varie riprese a partire dal 2007 da parte dell'Università di Khartum",
+      "post-it": "Lavori sul campo a varie riprese a partire dal 2007 da parte dell'Università di Khartoum",
       "post-en": "Fieldwork since 2007 by the Khartoum University",
-      "url": ""
+      "url": "other-sites"
     },
     {
       "name": "El-Khandag",
       "coord" : [ 18.607773, 30.567303 ],
       "submerged": false,
       "from": 1970,
-      "post-it": "Lavori sul campo a varie riprese a partire dal 2007 da parte dell'Università di Khartum",
+      "post-it": "Lavori sul campo a varie riprese a partire dal 2007 da parte dell'Università di Khartoum",
       "post-en": "Fieldwork since 2007 by the Khartoum University",
-      "url": ""
+      "url": "other-sites"
     },
     {
       "name": "Abkur",
@@ -64,14 +64,14 @@ const mappa = () => {
       "from": 1970,
       "post-it": "Lavori sul campo e ricognizioni da parte di Bogdan Zurawski, a partire dal 2000",
       "post-en": "Fieldwork and survey by Bogdan Zurawski, since 2000",
-      "url": ""
+      "url": "other-sites"
     },
     {
       "name": "Merowe",
       "coord": [ 18.480473, 31.800610 ],
       "submerged": false,
       "from": 1970,
-      "url": ""
+      "url": "other-sites"
     },
     // {
     //     "name": "Keissi",
@@ -85,7 +85,7 @@ const mappa = () => {
       "from": 1970,
       "post-it": "Mission archéologique suisse à Kera (Soudan): dal 1977",
       "post-en": "Mission archéologique suisse à Kera (Soudan): since 1977",
-      "url": ""
+      "url": "other-sites"
     }
   ];
 
