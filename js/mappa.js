@@ -11,11 +11,9 @@ const mappa = () => {
     {
       "name": "Sonqi Tino",
       "coord": [ 21.218166, 30.678575 ],
-      "from": 1964,
-      "to": 1964,
       "from": 1967,
       "to": 1970,
-      "submerged": true,
+      "submerged": false,
       "url": "sonqi-tino"
     },
     {
@@ -31,7 +29,7 @@ const mappa = () => {
     {
       "name": "Hugair Gubli",
       "coord": [ 18.244639, 31.642111 ],
-      "submerged": true,
+      "submerged": false,
       "from": 2021,
       "to": "in corso",
       "url": ""
