@@ -745,11 +745,7 @@ a:focus {
 .panel__sidebar-list li + li {
   margin-top: 5px;
 }
-.panel__sidebar-list span {
-  display: inline-block;
-}
 .panel__sidebar-list__name {
-  width: 85px;
   position: relative;
   font-family: "Prata";
   font-size: 14px;
@@ -783,7 +779,6 @@ a:focus {
 .panel__sidebar-list__value {
   font-size: 14px;
   color: #777777;
-  margin-left: 10px;
 }
 @media (max-width: 480px) {
   .panel__sidebar-list__value {
