@@ -44,15 +44,24 @@
       language = language.substring( 0, 2 );
       
       if  (language === "it"){
-        window.location.href = "it/index.html";
+        window.location.href = "it/";
       } else if (language === "ar"){  
-        window.location.href = "ar/index.html";
+        window.location.href = "ar/";
       } else if (language === "en"){  
-        window.location.href = "en/index.html";
+        window.location.href = "en/";
       } else {  
-        window.location.href = "en/index.html";
+        window.location.href = "en/";
       }
     }
+
+    const dateNow = new Date();
+    const datePublish = new Date('2021-05-20');
+    if (dateNow.getTime() < datePublish.getTime() ){
+      console.log(`wait`);
+    } else {
+      redirect();
+    }
+    
   </script>
 </body>
 </html>
