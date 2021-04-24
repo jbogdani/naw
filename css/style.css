@@ -905,7 +905,7 @@ a:focus {
   content: '';
   width: 100%;
   height: 20px;
-  background-image: url(../images/exhibition-decor-1-1.png);
+  background-image: url(../images/intro/exhibition-decor-1-1.png);
   background-repeat: repeat-x;
   background-position: left top;
   position: absolute;
