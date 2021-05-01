@@ -694,6 +694,14 @@ a:focus {
   font-size: 44px;
 }
 
+h2.panel__title{
+  margin-bottom: 3rem;
+}
+
+h3.panel__title{
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 992px) {
   .panel__sidebar {
     padding-left: 45px;
