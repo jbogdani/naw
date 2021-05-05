@@ -395,7 +395,9 @@
                 itemSelector: '.masonary-item'
             });
         }
-
+        $('#toogleAudio').click(function() {
+          $("i", this).toggleClass("fa-volume-off fa-volume-up");
+        });
     });
 
 })(jQuery);
