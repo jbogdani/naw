@@ -1,5 +1,13 @@
 const audio = () => {
-    const audiofile = "../audio/03 Vivaldi Sonata op.1 no.8 en r'e mineur RV6 - II. Corrente, allegro.mp3";
+    const playButton = document.createElement('button');
+    playButton.classList.add('btn');
+    playButton.setAttribute('id', 'toogleAudio');
+    playButton.innerHTML = '<i class="fa fa-volume-up"></i> Audio';
+    
+    const refNode = document.querySelector('.thm-breadcrumb') || document.querySelector('.slider-one__text');
+    refNode.after(playButton);
+    
+    const audiofile = "../audio/Haydn-String-quartet-in-D-minor-op42.mp3";
 
     const audioEl = document.createElement('audio');
     audioEl.setAttribute('src', audiofile);
